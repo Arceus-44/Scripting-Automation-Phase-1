@@ -10,25 +10,25 @@ This Bash tool displays basic Linux system information using terminal commands.
 
 3. Features
 
--Displays hostname
+• Displays hostname
 
--Shows current logged-in user
+• Shows current logged-in user
 
--Displays operating system name
+• Displays operating system name
 
--Shows kernel version
+• Shows kernel version
 
--Displays root filesystem disk usage
+• Displays root filesystem disk usage
 
--Supports the --help option
+• Supports the --help option
 
 4. Requirements
 
--Linux or Kali Linux
+• Linux or Kali Linux
 
--Bash shell
+• Bash shell
 
--Terminal access
+• Terminal access
 
 5. How to Run
 
@@ -49,21 +49,21 @@ The tool displays hostname, current user, operating system, kernel version, and 
 
 8. Challenges Faced
 
--Understanding Linux commands
+• Understanding Linux commands
 
--Learning Bash scripting
+• Learning Bash scripting
 
- -Making the script executable
+• Making the script executable
 
--Handling command-line arguments
+• Handling command-line arguments
 
 9. Future Improvements
 
--Add RAM and CPU information
+• Add RAM and CPU information
 
--Save output to a report file
+• Save output to a report file
 
--Add more Linux security checks
+• Add more Linux security checks
 
 10. Conclusion
 
