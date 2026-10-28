@@ -10,25 +10,25 @@ This Python tool analyzes a file and displays its name, size, and SHA-256 hash.
 
 3. Features
 
--Accepts a file path as input
+• Accepts a file path as input
 
--Checks whether the file exists
+• Checks whether the file exists
 
--Displays file name and size
+• Displays file name and size
 
--Calculates the SHA-256 hash
+• Calculates the SHA-256 hash
 
--Handles basic file errors
+• Handles basic file errors
 
--Supports the --help option
+• Supports the --help option
 
 4. Requirements
 
--Python 3
+• Python 3
 
--Linux or Kali Linux
+• Linux or Kali Linux
 
--Permission to read the selected file
+• Permission to read the selected file
 
 5. How to Run
 
@@ -52,23 +52,23 @@ The tool displays the file name, file size in bytes, and calculated SHA-256 hash
 
 8. Challenges Faced
 
--Understanding file paths
+• Understanding file paths
 
--Reading files in binary mode
+• Reading files in binary mode
 
--Calculating SHA-256 hashes
+• Calculating SHA-256 hashes
 
--Handling missing files
+• Handling missing files
 
 9. Future Improvements
 
--Detect file types
+• Detect file types
 
--Save analysis results to a report
+• Save analysis results to a report
 
--Compare hashes against known trusted values
+• Compare hashes against known trusted values
 
--Improve error reporting
+• Improve error reporting
 
 10. Conclusion
 
