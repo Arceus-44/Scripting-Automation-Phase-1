@@ -1,70 +1,75 @@
-System Information Tool
+Python File Analyzer
 
 1. Tool Name
 
-System Information Tool
+Python File Analyzer
 
 2. Objective
 
-This Bash tool displays basic Linux system information using terminal commands.
+This Python tool analyzes a file and displays its name, size, and SHA-256 hash.
 
 3. Features
 
--Displays hostname
+-Accepts a file path as input
 
--Shows current logged-in user
+-Checks whether the file exists
 
--Displays operating system name
+-Displays file name and size
 
--Shows kernel version
+-Calculates the SHA-256 hash
 
--Displays root filesystem disk usage
+-Handles basic file errors
 
 -Supports the --help option
 
 4. Requirements
 
+-Python 3
+
 -Linux or Kali Linux
 
--Bash shell
-
--Terminal access
+-Permission to read the selected file
 
 5. How to Run
 
-chmod +x tool.sh
-./tool.sh
+python3 tool.py test.txt
 
-To display help:
+Display help:
 
-./tool.sh --help
+python3 tool.py --help
+
+Test a missing file:
+
+python3 tool.py missing.txt
 
 6. Example Usage
 
-Run ./tool.sh to display system information.
+Run the tool with a filename, such as test.txt.
 
 7. Example Output
 
-The tool displays hostname, current user, operating system, kernel version, and disk usage.
+The tool displays the file name, file size in bytes, and calculated SHA-256 hash.
 
 8. Challenges Faced
 
--Understanding Linux commands
+-Understanding file paths
 
--Learning Bash scripting
+-Reading files in binary mode
 
- -Making the script executable
+-Calculating SHA-256 hashes
 
--Handling command-line arguments
+-Handling missing files
 
 9. Future Improvements
 
--Add RAM and CPU information
+-Detect file types
 
--Save output to a report file
+-Save analysis results to a report
 
--Add more Linux security checks
+-Compare hashes against known trusted values
+
+-Improve error reporting
 
 10. Conclusion
 
-This project helped me learn basic Bash scripting and Linux system information commands.
+This project helped me learn Python functions, file handling, command-line arguments, error handling, and cryptographic hashing.
